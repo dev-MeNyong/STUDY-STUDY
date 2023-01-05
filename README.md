@@ -3,3 +3,4 @@
 AJAX공부 시작
 fecth  API 사용하여 ajax 구현
 ajax 적용, 함수화
+https://dragonair148.tistory.com/52
