@@ -12,3 +12,8 @@ https://dragonair148.tistory.com/53
 20230108
 자바스크립트 기본기 복습
 생활코딩 >배열까지 복습
+
+20230109
+자바스크립트 객체/ 모듈 복습 및 기록 <br>
+객체: https://dragonair148.tistory.com/54
+모듈: https://dragonair148.tistory.com/55
