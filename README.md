@@ -26,3 +26,4 @@ https://dragonair148.tistory.com/53<br>
 2/5 - 유효범위의 필요성 https://dragonair148.tistory.com/57 <br>
 3/5 - 전역변수의 사용 https://dragonair148.tistory.com/58 <br>
 4/5 - 유효범위의 대상(함수) https://dragonair148.tistory.com/59 <br>
+5/5 - 정적 유효범위 https://dragonair148.tistory.com/60 <br>
