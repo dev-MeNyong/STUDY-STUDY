@@ -17,3 +17,10 @@ https://dragonair148.tistory.com/53<br>
 자바스크립트 객체/ 모듈 복습 및 기록 <br>
 객체: https://dragonair148.tistory.com/54 <br>
 모듈: https://dragonair148.tistory.com/55 <br>
+
+20230110<br>
+유효범위(Scope) 공부 및 
+1/5 - 전역변수와 지역변수 https://dragonair148.tistory.com/56 <br>
+2/5 - 유효범위의 필요성 https://dragonair148.tistory.com/57 <br>
+3/5 - 전역변수의 사용 https://dragonair148.tistory.com/58 <br>
+4/5 - 유효범위의 대상(함수) https://dragonair148.tistory.com/59 <br>
