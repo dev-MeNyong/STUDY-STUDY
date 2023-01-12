@@ -1,4 +1,4 @@
-# 자바스크립트 기반 다지기
+# 자바스크립트 기반 다지기/Do it 반응형 웹 페이지 만들기 책 공부
 <h4>생활코딩으로 공부하며 기술 블로그 기록</h4>
 
 20230105<br>
@@ -32,3 +32,7 @@ https://dragonair148.tistory.com/53<br>
 값으로서의 함수 https://dragonair148.tistory.com/61 <br>
 콜백 https://dragonair148.tistory.com/62 <br>
 콜백 비동기 처리 https://dragonair148.tistory.com/63 <br>
+
+20230112 <br>
+반응형 웹이란? https://dragonair148.tistory.com/entry/%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9 <br>
+호스팅 서버 준비, FTP프로그램 준비,핵심 기술 맛보기(가변 그리드, 뷰포트, 미디어 쿼리,플렉서블 박스<br>
