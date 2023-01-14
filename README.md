@@ -34,5 +34,14 @@ https://dragonair148.tistory.com/53<br>
 콜백 비동기 처리 https://dragonair148.tistory.com/63 <br>
 
 20230112 <br>
+반응형 웹 페이지 만들기 1장<br>
 반응형 웹이란? https://dragonair148.tistory.com/entry/%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9 <br>
 호스팅 서버 준비, FTP프로그램 준비,핵심 기술 맛보기(가변 그리드, 뷰포트, 미디어 쿼리,플렉서블 박스<br>
+
+20230114<br>
+클로저-외부함수와 내부함수의 밀접한 관계 https://dragonair148.tistory.com/entry/%ED%81%B4%EB%A1%9C%EC%A0%80closer-%EC%99%B8%EB%B6%80%ED%95%A8%EC%88%98%EC%99%80-%EB%82%B4%EB%B6%80%ED%95%A8%EC%88%98%EC%9D%98-%EB%B0%80%EC%A0%91%ED%95%9C-%EA%B4%80%EA%B3%84-12 <br>
+클로저 - private variable <br>
+https://dragonair148.tistory.com/entry/%ED%81%B4%EB%A1%9C%EC%A0%80closure-23-private-variable
+<br>
+반응형 웹 페이지 만들기 2,3장<br>
+2장: 가변그리드 3장: 미디어 쿼리와 
