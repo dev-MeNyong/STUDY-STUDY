@@ -48,3 +48,5 @@ https://dragonair148.tistory.com/entry/%ED%81%B4%EB%A1%9C%EC%A0%80closure-23-pri
 <br>
 20230117<br>
 4장 플렉서블 박스,5장 반응형 웹사이트 준비 작업하기
+20230118<br>
+6장 메인페이지 
