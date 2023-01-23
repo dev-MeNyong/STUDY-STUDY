@@ -135,19 +135,164 @@
             color: #fff;
         }
 
-        .breadcrum_list {
+        .breadcrum_list li {
             display: inline;
             font-size: 0.813em;
             font-size: 0.813rem;
             font-weight: bold;
         }
 
+        /* 콘텐츠 영역 CSS */
         .content_section {
             order: 4;
             padding: 20px;
             padding: 1.250rem;
             background: #fff;
         }
+
+        .board_table {
+            width: 100%;
+        }
+
+        .board_table caption {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            visibility: hidden;
+        }
+
+        .board_table thead,
+        .board_table tbody {
+            font-size: 0.813em;
+            font-size: 0.813rem;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .board_table thead {
+            color: #fff;
+            background: #2c3e50;
+        }
+
+        .board_table tbody,
+        .board_table tbody a {
+            color: #333;
+        }
+
+        .board_table tbody tr:nth-child(odd) {
+            background: #f6f6f6;
+        }
+
+        .board_table thead tr th {
+            padding: 18px 0;
+            padding: 1.125rem 0;
+        }
+
+        .board_table tbody tr td {
+            padding: 22px 0;
+            padding: 1.375rem 0;
+        }
+
+        .board_table thead tr th:first-child,
+        .board_table thead tr th:nth-child(3),
+        .board_table thead tr th:nth-child(4),
+        .board_table tbody tr td:first-child,
+        .board_table tbody tr td:nth-child(3),
+        .board_table tbody tr td:nth-child(4) {
+            display: none;
+        }
+
+        .content_row_2 {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0 40px 0;
+            margin: 1.875rem 0 2.500rem 0;
+        }
+
+        .search_window {
+            width: 118px;
+            width: 7.375rem;
+            height: 28px;
+            height: 1.750rem;
+            font-size: 0.688em;
+            font-size: 0.688rem;
+            line-height: 28px;
+            line-height: 1.750rem;
+            text-indent: 10px;
+            text-indent: 0.625rem;
+        }
+
+        .search_select_box {
+            display: none;
+        }
+
+        .write_box a {
+            display: block;
+            width: 70px;
+            width: 4.375rem;
+            height: 30px;
+            height: 1.875rem;
+            font-size: 0.813em;
+            font-size: 0.813rem;
+            line-height: 30px;
+            line-height: 1.875rem;
+            text-align: center;
+            background: #e65d5d;
+            color: #fff;
+        }
+
+        .content_row_3 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .content_row_3 span {
+            width: 28px;
+            width: 1.750rem;
+            height: 28px;
+            height: 1.750rem;
+            text-indent: -9999px;
+        }
+
+        .content_row_3 span.list_prev_btn {
+            margin-right: 10px;
+            margin-right: 0.625rem;
+            background: #2ecc71 url(images/s_images/list_prev_btn.png) center center no-repeat;
+        }
+
+        .content_row_3 span.list_next_btn {
+            margin-left: 10px;
+            margin-left: 0.625rem;
+            background: #2ecc71 url(images/s_images/list_next_btn.png) center center no-repeat;
+        }
+
+        .content_row_3 a {
+            width: 26px;
+            width: 1.625rem;
+            font-size: 0.813em;
+            font-size: 0.813rem;
+            line-height: 26px;
+            line-height: 1.625rem;
+            text-align: center;
+            border: 1px solid #219af7;
+            color: #219af7;
+            transition: all 0.2s;
+        }
+
+        .content_row_3 a:nth-of-type(2) {
+            margin: 0 6px;
+            margin: 0 0.375rem;
+        }
+
+        .content_row_3 a:hover {
+            color: #fff;
+            background: #219af7;
+        }
+
+
 
         .footer {
             order: 5;
@@ -202,10 +347,87 @@
                 margin-top: -0.938rem;
             }
 
+            /* 콘텐츠 영역 CSS */
             .content_section {
                 padding: 40px;
                 padding: 2.500rem;
             }
+
+            .board_table thead tr th:first-child,
+            .board_table thead tr th:nth-child(3),
+            .board_table thead tr th:nth-child(4),
+            .board_table tbody tr td:first-child,
+            .board_table tbody tr td:nth-child(3),
+            .board_table tbody tr td:nth-child(4) {
+                display: table-cell;
+            }
+
+            .board_table thead tr th:first-child {
+                width: 10%;
+            }
+
+            .board_table thead tr th:first-child(2) {
+                width: 65%;
+            }
+
+            .board_table thead tr th:first-child(3) {
+                width: 15%;
+            }
+
+            .board_table thead tr th:first-child(4) {
+                width: 10%;
+            }
+
+            .board_table tbody tr td:nth-child(2) {
+                text-align: left;
+            }
+
+            .search_select_box {
+                display: inline-block;
+                position: relative;
+            }
+
+            .search_select_box span {
+                display: inline-block;
+                width: 80px;
+                width: 5.000rem;
+                height: 30px;
+                height: 1.875rem;
+                font-size: 0.813em;
+                font-size: 0.813rem;
+                line-height: 28px;
+                line-height: 1.750rem;
+                text-align: center;
+                color: #fff;
+                background: #e65d5d;
+                cursor: pointer;
+            }
+
+            .search_select_list {
+                display: none;
+                position: absolute;
+                top: 105%;
+                left: 0;
+                width: 100%;
+            }
+
+            .search_select_list li {
+                padding: 6px 0;
+                padding: 0.375rem 0;
+                font-size: 0.750em;
+                font-size: 0.750rem;
+                text-indent: 10px;
+                text-indent: 0.625rem;
+                color: #fff;
+                background: #e65d5d;
+                cursor: pointer;
+            }
+
+            .search_select_box:hover .search_select_list {
+                display: block;
+            }
+
+
         }
 
         /*PC용*/
@@ -299,9 +521,15 @@
                 padding: 60px;
                 padding: 3.750rem;
             }
-
+   
             .footer {
                 order: 4;
+            }
+
+            .footer p {
+                padding-left: 3.125%;
+                /* 30px ÷ 960px */
+                text-align: left;
             }
         }
     </style>
@@ -410,18 +638,16 @@
                 </div>
             </div>
             <div class="content_row_3">
-                <span class="list_prev_btn">갤러리 이전 버튼</span>
+                <span class="list_prev_btn">문의사항 이전 버튼</span>
                 <a href="#">1</a>
                 <a href="#">2</a>
                 <a href="#">3</a>
-                <span class="list_next_btn">갤러리 다음 버튼</span>
+                <span class="list_next_btn">문의사항 다음 버튼</span>
             </div>
-    </div>
-    </section>
-
-    <footer class="footer">
-        <p>copyright&copy;2014.flat design blog all rights reserved.</p>
-    </footer>
+        </section>
+        <footer class="footer">
+            <p>copyright&copy;2014.flat design blog all rights reserved.</p>
+        </footer>
     </div>
 </body>
 
