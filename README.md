@@ -52,4 +52,4 @@ https://dragonair148.tistory.com/entry/%ED%81%B4%EB%A1%9C%EC%A0%80closure-23-pri
 6장 메인페이지 작업하기
 <br>
 20230120~20230123<br>
-6장 메인 페이지 작업하기 완료/ 7장 서브 페이지 <br>
+6장 메인 페이지 작업하기 완료/ 7장 서브 페이지구축  <br>
