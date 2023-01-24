@@ -53,3 +53,6 @@ https://dragonair148.tistory.com/entry/%ED%81%B4%EB%A1%9C%EC%A0%80closure-23-pri
 <br>
 20230120~20230123<br>
 6장 메인 페이지 작업하기 완료/ 7장 서브 페이지구축  <br>
+<br>
+20230124<br>
+css 나누기/ js작업 완료 반응형 연습   <br>
